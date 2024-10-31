@@ -2,8 +2,8 @@
    --Bright-orange: hsl(31, 77%, 52%);
    --Dark-cyan: hsl(184, 100%, 22%);
    --Very-dark-cyan: hsl(179, 100%, 13%);
-   --Transparent-white: hsla(0, 0%, 100%, 0.75);/*paragraphs */
-   --Very-light-gray : hsl(0, 0%, 95%);/*background, headings, buttons*/
+   --Transparent-white: hsla(0, 0%, 100%, 0.75);
+   --Very-light-gray : hsl(0, 0%, 95%);
    --font-family: 'Big Shoulders Display', sans-serif;
    --font-familys: 'Lexend Deca', sans-serif;
 }
@@ -52,25 +52,9 @@ body {
     padding: .2rem;
 }
 
-.learn {
-    font-family: var(--font-familys);
-    font-size: 1rem;
-    text-align: center;
-    color: var(--Bright-orange);
-    text-decoration: none;
-}
-
 .second-content {
     background-color: var(--Dark-cyan);
     padding: 2rem;
-}
-
-.learn-2 {
-    font-family: var(--font-familys);
-    font-size: 1rem;
-    text-align: center;
-    color: var(--Dark-cyan);
-    text-decoration: none;
 }
 
 .third-content {
@@ -80,49 +64,49 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-.learn-3 {
+.learn, .learn-2, .learn-3 {
     font-family: var(--font-familys);
     font-size: 1rem;
     text-align: center;
-    color: var(--Very-dark-cyan);
     text-decoration: none;
 }
 
-.button:hover {
+.learn {
+    color: var(--Bright-orange);
+}
+
+.learn-2 {
+    color: var(--Dark-cyan);
+}
+
+.learn-3 {
+    color: var(--Very-dark-cyan);
+}
+
+.learn:hover, .learn-2:hover, .learn-3:hover{
+    color: white;
+}
+
+.button:hover, .button-2:hover, .button-3:hover {
     border: 1px solid white;
     border-radius: 3rem;
     padding: .2rem;
+    cursor: pointer;
+}
+
+.button:hover {
     background-color: var(--Bright-orange);
+    color: white;
 }
 
 .button-2:hover {
-    border: 1px solid white;
-    color: white;
-    border-radius: 3rem;
-    padding: .2rem;
     background-color: var(--Dark-cyan);
+    color: white;
 }
 
 .button-3:hover {
-    border: 1px solid white;
-    border-radius: 3rem;
-    padding: .2rem;
     background-color: var(--Very-dark-cyan);
-}
-
-.learn:hover {
-   color: white;
-   cursor: pointer;
-}
-
-.learn-2:hover {
     color: white;
-    cursor: pointer;
-}
-
-.learn-3:hover {
-    color: white;
-    cursor: pointer;
 }
 
 @media screen and (min-width: 400px) {
