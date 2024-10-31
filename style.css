@@ -1,0 +1,344 @@
+:root {
+   --Bright-orange: hsl(31, 77%, 52%);
+   --Dark-cyan: hsl(184, 100%, 22%);
+   --Very-dark-cyan: hsl(179, 100%, 13%);
+   --Transparent-white: hsla(0, 0%, 100%, 0.75);/*paragraphs */
+   --Very-light-gray : hsl(0, 0%, 95%);/*background, headings, buttons*/
+   --font-family: 'Big Shoulders Display', sans-serif;
+   --font-familys: 'Lexend Deca', sans-serif;
+}
+
+body {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-content {
+    background-color: var(--Bright-orange);
+    padding: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.text {
+    color: white;
+}
+
+.sedans {
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: var(--Transparent-white);
+    font-family: var(--font-familys);
+}
+
+.button, .button-2, .button-3 {
+    margin: 2rem 0;
+    background: white;
+    border-radius: 3rem;
+    width: 70%;
+    padding: .2rem;
+}
+
+.learn {
+    font-family: var(--font-familys);
+    font-size: 1rem;
+    text-align: center;
+    color: var(--Bright-orange);
+    text-decoration: none;
+}
+
+.second-content {
+    background-color: var(--Dark-cyan);
+    padding: 2rem;
+}
+
+.learn-2 {
+    font-family: var(--font-familys);
+    font-size: 1rem;
+    text-align: center;
+    color: var(--Dark-cyan);
+    text-decoration: none;
+}
+
+.third-content {
+    background-color: var(--Very-dark-cyan);
+    padding: 2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.learn-3 {
+    font-family: var(--font-familys);
+    font-size: 1rem;
+    text-align: center;
+    color: var(--Very-dark-cyan);
+    text-decoration: none;
+}
+
+.button:hover {
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: .2rem;
+    background-color: var(--Bright-orange);
+}
+
+.button-2:hover {
+    border: 1px solid white;
+    color: white;
+    border-radius: 3rem;
+    padding: .2rem;
+    background-color: var(--Dark-cyan);
+}
+
+.button-3:hover {
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: .2rem;
+    background-color: var(--Very-dark-cyan);
+}
+
+.learn:hover {
+   color: white;
+   cursor: pointer;
+}
+
+.learn-2:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.learn-3:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        margin: 2.5rem;
+    }
+
+    .sedans {
+        font-size: 3.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.2rem;
+    }
+
+    .first-content {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .third-content {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.2rem;
+    }
+
+    .first-content, .second-content, .third-content {
+        padding: 3rem;
+    }
+
+    .sedan {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 510px) {
+    body {
+        margin: 3rem;
+    }
+
+    .sedans {
+        font-size: 3.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.3rem;
+    }
+
+    .first-content {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .third-content {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.3rem;
+    }
+
+    .first-content, .second-content, .third-content {
+        padding: 4rem;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    body {
+        margin: 4.5rem;
+    }
+
+    .sedans {
+        font-size: 4rem;
+    }
+
+    .paragraph {
+        font-size: 1.4rem;
+    }
+
+    .first-content {
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+    .third-content {
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.4rem;
+    }
+
+    .first-content, .second-content, .third-content {
+        padding: 4.2rem;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    body {
+        margin: 5.5rem;
+    }
+
+    .sedans {
+        font-size: 4.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.4rem;
+    }
+
+    .first-content {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .third-content {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.5rem;
+    }
+
+    .first-content, .second-content, .third-content {
+        padding: 4.5rem;
+    }
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.5rem;
+    }
+
+    .first-content, .second-content, .third-content {
+        padding: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .content {
+        flex-direction: row;
+    }
+
+    .first-content {
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 4.5rem 2rem;
+    }
+
+    .second-content {
+        padding: 4.5rem 2rem;
+    }
+
+    .third-content {
+        border-top-right-radius: 22px;
+        border-bottom-right-radius: 22px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 4.5rem 2rem;
+    }
+
+    .sedans {
+        font-size: 3rem;
+    }
+
+    .paragraph {
+        font-size: 1.3rem;
+    }    
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1370px) {
+    .content {
+        flex-direction: row;
+    }
+
+    .first-content {
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .third-content {
+        border-top-right-radius: 22px;
+        border-bottom-right-radius: 22px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .sedans {
+        font-size: 4.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.4rem;
+    }
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.5rem;
+    }
+
+    .first-content, .second-content, .third-content {
+        padding: 4.5rem;
+    }
+
+    .learn, .learn-2, .learn-3 {
+        font-size: 1.5rem;
+    }
+}
