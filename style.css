@@ -8,6 +8,10 @@
    --font-familys: 'Lexend Deca', sans-serif;
 }
 
+.sedan {
+    width: 60%;
+}
+
 body {
     margin: 2rem;
     display: flex;
@@ -30,6 +34,10 @@ body {
 
 .text {
     color: white;
+}
+
+.sedan {
+    width: 100%;
 }
 
 .sedans {
